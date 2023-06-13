@@ -17,7 +17,7 @@ class Actualizar extends StatefulWidget {
 class _ActualizarState extends State<Actualizar> {
   late DateTime data;
   String? categoria;
-  late List<String> items2 = ['Combustible', 'Avaria', 'Assegurança', 'Equipament', 'Altres'];
+  late List<String>  items2 = ['Combustible', 'Avaria', 'Assegurança', 'Equipament', 'Altres'];
   late String? selectedItem2 = 'Combustible';
   late List<String> items = ['Recurrent', 'Extraordinari'];
   late String? selectedItem = 'Recurrent';
